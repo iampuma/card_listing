@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: orientation
+label: Landscape
+classes: landscape
+type: component
+weight: 0
+block_restrictions:
+  - 'inline_block:card_listing'
+layout_restrictions: {  }

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cta_primary
+    - paragraphs.paragraphs_type.card
+id: paragraph.card.field_cta_primary
+field_name: field_cta_primary
+entity_type: paragraph
+bundle: card
+label: 'Set as primary CTA link'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

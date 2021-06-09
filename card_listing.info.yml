@@ -1,0 +1,11 @@
+name: 'Card Listing'
+type: module
+description: 'Card listing element'
+core_version_requirement: ^8.8 || ^9
+package: 'custom'
+dependencies:
+  - paragraphs
+  - layout_builder
+  - media
+  - media_library
+  - layout_builder_styles

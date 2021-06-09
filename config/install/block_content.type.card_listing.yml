@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: card_listing
+label: 'Card Listing'
+revision: 0
+description: 'Card listing block containing a heading and card elements.'

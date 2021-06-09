@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.card_listing
+    - field.field.block_content.card_listing.field_heading
+    - field.field.block_content.card_listing.field_paragraph_cards
+  module:
+    - entity_reference_revisions
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+_core:
+  default_config_hash: 7b_IrnO24PJ7GQqh8glUOJz_rxHC5x_gQX9l1YwqlEI
+id: block_content.card_listing.default
+targetEntityType: block_content
+bundle: card_listing
+mode: default
+content:
+  field_heading:
+    weight: 1
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraph_cards:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }
